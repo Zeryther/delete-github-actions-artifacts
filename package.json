@@ -1,0 +1,22 @@
+{
+	"name": "delete-github-actions-artifacts",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Clean up all GitHub Actions artifacts using the GitHub API",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zeryther/delete-github-actions-artifacts.git"
+	},
+	"author": "Mehdi Baaboura <mbaaboura@gigadrivegroup.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Zeryther/delete-github-actions-artifacts/issues"
+	},
+	"homepage": "https://github.com/Zeryther/delete-github-actions-artifacts#readme",
+	"dependencies": {
+		"cli-progress": "^3.11.1",
+		"node-fetch": "^3.2.4",
+		"readline-sync": "^1.4.10"
+	}
+}
